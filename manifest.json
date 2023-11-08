@@ -9,7 +9,7 @@
     "content_scripts":[
         {
         "matches": ["https://*.youtube.com/*"],
-        "js": [ "jquery.js","myScripts.js"]
+        "js": [ "jquery.js", "myScripts.js"]
         }],
     "manifest_version": 3,
     "author": "Ayrton Frieslaar"
