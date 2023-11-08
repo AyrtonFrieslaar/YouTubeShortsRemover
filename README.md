@@ -14,7 +14,7 @@ The only purpose for this file is to store my personal notes on scripts I found 
 There isn't much use for this file other than helping me keep a mental note of things I might use.
 
 I've added a function from someone who has done this exact project. After reviewing it he helped simplfy my code and make use MutationObserver correctly.
-I will attempt to cite the repo
+I'm not sure of a better way to cite someone's repo: https://github.com/cphoover/youtube-shorts-remover/tree/main
 
 ### background.js
 As I understand it, background.js is used to respond to events that happen in your broswer(I might be wrong on this so another thing for me to review after this).
