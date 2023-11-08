@@ -16,6 +16,7 @@ getTab().then(url => {
 console.log(url);
 })
 
+//Found someone who's done a better job than I did. Not quite surprised we took pretty much the same approach to doing this.
 function removeUIElements() {
 
   // Remove the Shorts button from the sidebar
