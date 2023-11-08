@@ -31,3 +31,5 @@ I thought I would need jquery in this project, although I did use it it was not 
 ## Conclusion
 At the moment, this does exactly what I wanted from it. I plan to atleast create a feature to allow you to enable this extension(should be pretty simple boolean slider in html) in the very near future.
 This was okay for a first attempt at creating a Chrome extension, if a see a useful need in a browser hopefully next time I can create something much more complex and useful.
+
+The project is still filled with comments about debugging and reasoning as I plan to come back to this shortly when I have time to clean it up.
