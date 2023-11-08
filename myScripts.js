@@ -18,7 +18,7 @@ $(document).ready(function(){
     removeShortsElements();
     console.log("Doc ready!");//debug
 });
-//at this point I realise I need to somehow dynamically remove containers
+//At this point I realise I need to somehow dynamically remove containers
 //Found the answer from someone who has already done this. 
 const observer = new MutationObserver((mutations) => {
     let shouldRemoveElements = false;
@@ -27,11 +27,9 @@ const observer = new MutationObserver((mutations) => {
         shouldRemoveElements = true;
         break;
       }
-    }
-  
+    }  
     if (shouldRemoveElements) {
         removeShortsElements();
     }
   });
-
   observer.observe(document.body, { childList: true, subtree: true });

@@ -1,4 +1,4 @@
-chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab){
+chrome.tabs.onUpdated.addListener(function(tabId, changeInfo){
 
     if(changeInfo.url.includes("/shorts/")){//The function should only be called if the url of the tab matches */shorts/*
         
