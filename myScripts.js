@@ -2,8 +2,11 @@ function removeShortsElements(){
     console.log("This function runs!");
     //Removes Youtube shorts container on Main page.
     const shortsContainer = $('ytd-rich-section-renderer'); //I am not sure if there is a better way find the YouTube Shorts on the home page as there might be other containers that are not Shorts specific using the same element.
-    if(shortsContainer.length){
+    const shortReelContainer = $('ytd-reel-shelf-renderer'); //Seems like the only element that contains Shorts when searching.
+    if(shortsContainer.length || shortReelContainer.length){
         shortsContainer.remove();
+        shortReelContainer.remove();//I should remove this in its own condition.
+
         console.log("removed containers here!");//debug
     }
     //I swear this attributes in this element changed as I was working on this.
